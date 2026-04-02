@@ -9,3 +9,10 @@ function hi(message) {
 }
 let message = prompt("What message would you like to print?: ")
 hi(message)
+
+// Dictionaries
+let value = 1
+let dict = {
+    "key": value
+}
+console.log(dict["key"])
